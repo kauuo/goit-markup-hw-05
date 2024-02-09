@@ -675,7 +675,7 @@ img {
 
 .form-check:checked + .check-text span {
   background-color: #404bbf;
-  fill: #F4F4FD;
+  fill: #f4f4fd;
   border: none;
 }
 
