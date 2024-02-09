@@ -622,8 +622,12 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment {
   margin-bottom: 16px;
 }
+
 .modal-text-area:focus {
   border-color: #4d5ae5;
 }
@@ -654,13 +658,13 @@ img {
   text-decoration-line: underline;
 }
 
-.check-text span {
+.check-item {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -671,7 +675,7 @@ img {
 
 .form-check:checked + .check-text span {
   background-color: #404bbf;
-  fill: #fff;
+  fill: #F4F4FD;
   border: none;
 }
 
