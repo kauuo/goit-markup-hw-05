@@ -714,7 +714,12 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-textarea {
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
   width: 264px;
   height: 40px;
   border-radius: 4px;
@@ -725,14 +730,14 @@ img {
   outline: transparent;
 }
 
-.footer-textarea::placeholder {
+.footer-input::placeholder {
   color: #fff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
 }
 
-.footer-subscribe-btn {
+.footer-btn {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
